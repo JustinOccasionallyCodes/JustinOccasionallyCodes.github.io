@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#container {
+  padding: 10px;
+  width: 1000px;
+  height: 80%;
+  background-color: #f2f2f2;
+  margin: 0 auto;
+}
+
+#track {
+  width: 980px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  margin: 20px auto;
+}
+
+#train {
+  height: 92px;
+  width: 100px;
+  position: relative;
+  left: 0px;
+}
+
+.button {
+  border: none;
+  /* Increase the width and height for bigger buttons */
+  width: 300px;
+  height: 120px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.startButton {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.stopButton {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.speedUpButton {
+  background-color: #9b59b6;
+  color: #fff;
+}
+
+.resetButton {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 17px;
+}
+
+#speedUpCounter {
+  margin-left: 10px;
+  font-size: 28px;
+}

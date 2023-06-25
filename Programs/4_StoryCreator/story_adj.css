@@ -1,0 +1,120 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  #inputWords {
+    flex-basis: 50%;
+    padding-right: 20px;
+  }
+  
+  #story {
+    flex-basis: 50%;
+    padding-left: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    line-height: 2em;
+    text-transform: uppercase;
+    margin-top: 8px;
+  }
+  
+  input[type="text"] {
+    border: 0;
+    border-bottom: 2px solid #333;
+    font-size: 16px;
+    padding: 4px;
+    width: 100%;
+    background-color: transparent;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #1abc9c;
+  }
+  
+  #buttonDiv {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  #replaceButton {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background-color: #1abc9c;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #replaceButton:hover {
+    background-color: #16a085;
+  }/* Input Fields */
+.input-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .input-list li {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 10px;
+  }
+  
+  /* Button */
+  #buttonDiv {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Story */
+  #story {
+    margin-top: 30px;
+  }
+  
+  
+  #story {
+    border: 1px dashed #333;
+    padding: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  

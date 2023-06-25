@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Story Generator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='story_adj.css'>
+</head>
+<body>
+    <header>
+        <h1>Story Generator</h1>
+    </header>
+    
+    <section id="instructions">
+        <h2>Instructions</h2>
+        <p>Enter the requested words in the input fields below. Once you've filled in all the words, click the "Replace it!" button to generate the story.</p>
+    </section>
+   
+    <div id="inputWords">
+        <ul class="input-list">
+            <li><input type="text" id="adj1" placeholder="Adjective" /></li>
+            <li><input type="text" id="verbIng" placeholder="Verb (ending in &quot;-ing&quot;)" /></li>
+            <li><input type="text" id="roomInHouse" placeholder="Room in a house" /></li>
+            <li><input type="text" id="color" placeholder="Color" /></li>
+            <li><input type="text" id="nounPlural" placeholder="Plural noun" /></li>
+            <li><input type="text" id="pastVerb" placeholder="Verb (past tense)" /></li>
+        </ul>
+        <ul class="input-list">
+            <li><input type="text" id="beverage" placeholder="Beverage" /></li>
+            <li><input type="text" id="musicType" placeholder="Type of music" /></li>
+            <li><input type="text" id="diffRoom" placeholder="Different room in a house" /></li>
+            <li><input type="text" id="exclamation" placeholder="Exclamation" /></li>
+            <li><input type="text" id="pastVerb2" placeholder="Verb (past tense)" /></li>
+            <li><input type="text" id="adjDance" placeholder="Adjective" /></li>
+            <li><input type="text" id="animal" placeholder="Animal" /></li>
+            <li><input type="text" id="city" placeholder="City" /></li>
+            <li><input type="text" id="verb" placeholder="Verb" /></li>
+        </ul>
+        <div id="buttonDiv">
+            <button id="replaceButton">Replace it!</button>
+        </div>
+    </div>
+    
+    <div id="story"></div>
+
+    <script src='story_adj.js'></script>
+</body>
+</html>

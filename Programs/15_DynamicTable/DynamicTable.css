@@ -1,0 +1,39 @@
+/* CSS for the dynamic table */
+table {
+  width: 400px; /* Adjust the width as desired */
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  width: 33%; /* Distribute the width evenly across columns */
+}
+
+th {
+  background-color: #f2f2f2; /* Light gray background color for header cells */
+  color: #333; /* Dark gray text color for header cells */
+}
+
+td {
+  background-color: #fff; /* White background color for data cells */
+  color: #333; /* Dark gray text color for data cells */
+}
+
+button {
+  margin-top: 10px;
+  background-color: #4CAF50; /* Green background color for the button */
+  color: #fff; /* White text color for the button */
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green background color on button hover */
+}

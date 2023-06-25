@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./Folio/folio.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: rgb(160, 198, 236);
+            padding: 25px;
+        }
+
+        .random-square {
+            width: 100%;
+            height: 200px;
+        }
+
+        /* Generate a random color using JavaScript */
+        .random-square {
+            background-color: rgb(Math.floor(Math.random() * 256),
+                    Math.floor(Math.random() * 256),
+                    Math.floor(Math.random() * 256));
+        }
+
+        /* Custom styles for the skills section */
+        .skills-section {
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background-color: #f9f9f9;
+        }
+
+        .skills-heading {
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+
+        .skill {
+            margin-bottom: 20px;
+        }
+
+        .skill-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+
+        .skill-description {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+        <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Portfolio</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="./index.html">Home</a></li>
+                    <li class="active"><a href="#">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div style="background-color: rgb(160, 198, 236)" class="jumbotron">
+        <!-- Jumbotron code -->
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <!-- First Column -->
+            <div class="col-sm-4">
+                <p><strong>Front-End Development</strong></p>
+                <div class="skill">
+                    <div class="skill-name">HTML</div>
+                    <div class="skill-description">
+                        I have expertise in creating semantic and well-structured HTML markup for web applications.
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">CSS</div>
+                    <div class="skill-description">
+                        I am proficient in CSS and can design visually appealing and responsive web interfaces.
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-description">
+                        I have strong skills in JavaScript and can develop interactive and dynamic web applications.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Column -->
+            <div class="col-sm-4">
+                <p><strong>Back-End Development</strong></p>
+                <div class="skill">
+                    <div class="skill-name">Node.js</div>
+                    <div class="skill-description">
+                        I have knowledge of back-end technologies such as Node.js and PHP, enabling me to develop
+                        robust server-side functionalities and APIs.
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Database Management</div>
+                    <div class="skill-description">
+                        I am proficient in working with databases like MySQL and MongoDB, ensuring efficient data
+                        storage and retrieval for web applications.
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">UX/UI Design</div>
+                    <div class="skill-description">
+                        I have a strong eye for user experience (UX) and user interface (UI) design principles,
+                        allowing me to create intuitive and user-friendly web interfaces.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third Column -->
+            <div class="col-sm-4">
+                <p><strong>Data Analysis</strong></p>
+                <div class="skill">
+                    <div class="skill-name">Version Control</div>
+                    <div class="skill-description">
+                        I have experience working with version control systems like Git, allowing efficient
+                        collaboration and tracking of code changes.
+
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">SQL</div>
+                    <div class="skill-description">
+                        I am proficient in SQL and can efficiently query and analyze large datasets using relational
+                        databases.
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Statistical Analysis</div>
+                    <div class="skill-description">
+                        I have a strong background in statistical analysis and can apply various statistical techniques
+                        to derive
+                        meaningful insights from data.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <p>&copy; 2022 My Portfolio. All rights reserved. | Designed by Justin Dreyer</p>
+    </footer>
+
+
+</body>
+
+</html>

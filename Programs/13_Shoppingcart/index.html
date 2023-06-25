@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Justins Shopping Cart</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="ShoppingCart.css" />
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        .container {
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .checkout-section {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Justins Shopping Cart</h1>
+        </header>
+
+        <main>
+            <div class="demo-section">
+                <p id="demo"></p>
+            </div>
+            <div class="checkout-section">
+                <p id="total"></p>
+                <button id="checkout" onclick="checkout()">Checkout</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2022 Justins Shopping Cart. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="ShoppingCart.js"></script>
+    <script>
+        window.addEventListener('load', display_all);
+    </script>
+</body>
+
+</html>

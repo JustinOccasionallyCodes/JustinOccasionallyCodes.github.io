@@ -1,0 +1,48 @@
+h1 {
+  background-color: aqua;
+  border: 10px solid aqua;
+  border-radius: 10px;
+  font-family: Georgia, serif;
+  font-size: 90px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+#countdown {
+  background-color: darkgray;
+  border: 10px solid darkgray;
+  border-radius: 10px;
+  font-family: monospace;
+  font-size: 80px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.button-container button:hover {
+  background-color: #66c2ff;
+}
+
+.button-container button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
+}
